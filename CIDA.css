@@ -1,0 +1,268 @@
+a {
+    text-decoration: none;
+}
+body {
+    margin: none;
+    padding: none;
+}
+/* **************************************** */
+.head-banner {
+    padding: none;
+    top: 20px;
+}
+.head-banner>ol>div {
+    position: sticky;
+}
+.head-banner>div {
+    display: inline-block;
+    text-indent: 10px;
+    font-size: 12px;
+    padding: 2px;
+}
+/* **************************************** */
+.donate :hover {
+    color: rgb(230, 100, 100);
+}
+/* **************************************** */
+.head-banner >.donate{
+    float: right;
+    font-size: 12px;
+    padding-right: 30px;
+}
+/* **************************************** */
+.CIDA {
+    text-align: center;
+    margin: 10px;
+    padding: 11px;
+    padding-bottom: 10px;
+}
+/* **************************************** */
+#sticky-category {
+    position: sticky;
+    top: 1px;
+    z-index: 999;
+    background-color: ghostwhite;
+    padding: 1px;
+}
+.category>li>a {
+    color: #007a9c;
+}
+.category{
+    text-align: center;
+}
+.category>li {
+    display: inline-block;
+    font-size: 125%;
+    margin: 0;
+    padding:0;
+    text-indent: 50px;
+    text-decoration: underline;
+}
+/* **************************************** */
+.logo-background {
+    padding: 2em;
+    margin: 2em;
+    background: linear-gradient(
+    330deg,
+    rgb(235 157 235 / 80%), 
+    rgb(236 236 147 / 90%),
+    rgb(240 153 153 / 80%), 
+    rgb(137 137 230 / 80%)
+    );
+}
+.logo-background >h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 5px 1px 1px pink;
+}
+/* **************************************** */
+.searching-bar {
+    text-align: right;
+    margin: 0px 30px 0px 0px
+}
+.search-bar {
+    padding: 0, 30px, 0, 0;
+    font-size: 15px;
+}
+.submit {
+    display: inline-block;
+}
+.submit :hover {
+    color: rgb(230, 100, 100);
+}
+/* **************************************** */
+.up-banner {
+    text-align: center;
+}
+.up-banner>ul {
+    padding: 0px 31px 0 0;
+}
+.up-banner>ul>ol {
+    display: inline-block;
+}
+/* **************************************** */
+.First-banner :hover{
+    color: rgb(200, 90, 200)
+}
+.first-banner{
+    padding: 2em;
+}
+.First-banner {
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 1px 0;
+    padding: 1.5em;
+    padding-bottom: 1em;
+    margin: 1em;
+    border-radius: 30%;
+    background: linear-gradient(
+        120deg,
+        rgb(220, 147, 147),
+        rgb(232, 232, 152),
+        rgb(177, 248, 177)
+    );
+    font-size: 15px;
+    color: purple;
+}
+/* **************************************** */
+.Second-banner :hover {
+    color: rgb(96, 107, 250)
+}
+.Second-banner {
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 1.5em;
+    padding-bottom: 1em;
+    margin: 1em;
+    border-radius: 30%;
+    background: linear-gradient(
+        180deg,
+        rgb(220, 147, 147),
+        rgb(232, 232, 152),
+        rgb(177, 248, 177)
+    );
+    font-size: 15px;
+    color: blue;
+}
+/* **************************************** */
+.Third-banner :hover {
+    color: rgb(219, 104, 104);
+}
+.Third-banner {
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin: 1em;
+    border-radius: 30%;
+    background: linear-gradient(
+        220deg,
+        rgb(220, 147, 147),
+        rgb(232, 232, 152),
+        rgb(177, 248, 177)
+    );
+    font-size: 15px;
+    color: red;
+}
+/* **************************************** */
+.contents{
+    margin: 1em;
+    padding: 0em 1em 10em 1em;
+    text-align: center;
+    background-color: aqu
+}
+.contnets {
+    position: relative;
+    display: inline-block;
+    padding: 0%;
+    text-align: center;
+}
+/* **************************************** */
+.contents-donate {
+    position: relative;
+    padding: 0em;
+    top: 3em;
+    left: -8em;
+}
+.contents-donate>div{
+    display: inline-block;
+    position:relative;
+    font-size: large;
+    text-align: left;
+    top: -2em;
+    left: 2em;
+}
+
+/* **************************************** */
+.contents-event {
+    position: relative;
+    padding: 0em;
+    top: 7em;
+    left: 10.7em;
+}
+.contents-event>div {
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    top: -2em;
+    right: 2em;
+}
+/* **************************************** */
+.contents-special-art-festival {
+    position: relative;
+    padding: 0px;
+    top: 11em;
+    left: -9em;
+}
+.contents-special-art-festival>div {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    top: -3em;
+    left: 2em;
+}
+/* **************************************** */
+.contents-work-force-development-project {
+    position: relative;
+    padding: 0em;
+    top: 15em;
+    left: 10em;
+}
+.contents-work-force-development-project>div{
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    top: -2.5em;
+    right: 2em;
+}
+/* **************************************** */
+.contents-step-forward-program {
+    position: relative;
+    padding: 0px;
+    top: 19em;
+    left: -10em;
+}
+.contents-step-forward-program>div {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    top: -3em;
+    left: 2em;
+}
+/* **************************************** */
+.contents-sibling-net {
+    position: relative;
+    padding: 0em;
+    top: 23em;
+    left: 10em;
+}
+.contents-sibling-net>div{
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    top: -2em;
+    right: 2em;
+}
